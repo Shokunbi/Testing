@@ -1,0 +1,69 @@
+body{
+   background-color: #EDEDF0;
+}
+.main-container{
+   padding: 2% 2% 0 2%;
+}
+.logo{
+   width: 100px;
+}
+.navigation-link{
+   float: right;
+   font-size: 12px;
+}
+.navigation-space{
+   margin-right: 12px;
+}
+a{
+   font-family: Roboto;
+   font-weight: 500;
+   color: #B6BCC8;
+   text-decoration: none;
+   letter-spacing: 0.5px;
+}
+h1{
+   font-family: Playfair;
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 72px;
+}
+.hero{
+   margin:10%;
+}
+.gallery-container{
+   height: 500px;
+   background-color: #000;
+}
+.form-input{
+   height: 55px;
+   padding-left: 3%;
+   border-width: 0.5px;
+   background-color: #EDEDF0;
+   border: 0.5px solid #B6BCC8;
+   font-size: 15px;
+   font-weight: 100;
+}
+#form-place{
+   width: 38%;
+   border-radius: 4px 0 0 4px;
+   margin-right:-6px;
+}
+#form-person{
+   margin-left:-6px;
+}
+/*.button{
+   margin-left: -4.6px;
+   width: 15%;
+   height: 57.8px;
+   margin-top:
+}*/
+button{ margin-left: -6px;
+   padding:2% 5%;
+   border-width: 0.5px;
+   background-color: #4887E0;
+   border: 0.5px solid #4887E0;
+   font-size: 15px;
+   text-align: center;
+   border-radius: 0 4px 4px 0;
+   color: #fff;
+}
