@@ -1,0 +1,114 @@
+.container{
+	padding:2% 2% 0% 2%;
+	background-color: #ededf0;
+	}
+li {
+	padding-right: 15px;
+   }
+ul {
+	display: flex;
+   flex-direction: row;
+   justify-content: flex-start; 
+   list-style: none;
+   white-space: nowrap;
+   float: right;
+   /*margin: 0px;*/
+  }
+  a{
+  	text-decoration: none;
+  	color: #b6bcc8;
+  	font-weight: 500;
+  	font-family: Roboto;
+  }
+  .navigation{
+  	margin-top:-10px;
+  }
+  .wander{
+  	float: left;
+  	width: 100px;
+  }
+  .text{
+  	margin-top: 200px;
+  	margin-left: 235px;
+  }
+      .image1{
+  	float: left;
+  	/*width: 29%;*/
+  }
+  .image2{
+  	float: center;
+  	/*width: 29%;*/
+  }
+  .image3{
+  	float: right;
+  	/*width: 29%;*/
+  }
+  .text-block {
+    position: relative;
+    bottom: 400px;
+    left: 20px;
+    background-color: transparent;
+    color: white;
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 15px;
+    /*text-align: center;*/
+}
+table{
+margin-left: auto;
+margin-right: auto;
+border:.5px solid black;
+/*padding: 25px;*/
+border-collapse: collapse;
+width: 60%
+}
+.search{
+	background-color: #4b89dc;
+	color:white;
+	padding-right: 15px;
+	padding-left: 8px;
+	font-size: 12px;
+	border-color: inherit;
+}
+.place{
+	padding-left: 8px;
+	padding-right: 25px;
+	font-size: 12px;
+}
+.pick{
+	padding-left: 8px;
+	padding-right: 15px;
+	font-size: 12px;
+}
+.person{
+	padding-left: 8px;
+	padding-right: 15px;
+	font-size: 12px;
+}
+input{
+	border:none;
+	background-color: none;
+	}
+td{
+	border: 1px solid;
+	padding: 15px;
+	/*margin: 10px;*/
+}
+.images{
+	margin-top: 100px;
+	/*width:90%;*/
+	display: flex;
+	margin-bottom: 0px;
+}
+h6{
+	font-size: 10px;
+}
+h4{
+	font-size: 35px;
+}
+h1{
+	font-family: playfair;
+	font-weight: 350;
+	font-size: 50px;
+	line-height: 52px;
+}
