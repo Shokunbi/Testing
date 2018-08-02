@@ -25,7 +25,7 @@
 					<td scope="col" colspan="2" class="place"><input type="text" name="place" placeholder="search for a palce, any palce" /></td>
 					<td scope="col" class="pick"><input type="text" name="date" placeholder="pick a date" /></td>
 					<td scope="col" class="person"><input type="text" name="person" placeholder="1 person" /></td>
-					<td scope="col" class="search"><input type="text" name="person" placeholder="Search" /></td>
+					<td scope="col" class="search"><button>Search</button></td>
 				</tr>
 		</table>
 	
