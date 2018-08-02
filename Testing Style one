@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="classwork.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
+	<title>Wanderlust.com</title>
+</head>
+<style>
+.container{
+	padding:2% 2% 0% 2%;
+	background-color: #ededf0;
+	}
+li {
+	padding-right: 15px;
+   }
+ul {
+	display: flex;
+   flex-direction: row;
+   justify-content: flex-start; 
+   list-style: none;
+   white-space: nowrap;
+   float: right;
+   /*margin: 0px;*/
+  }
+  a{
+  	text-decoration: none;
+  	color: #b6bcc8;
+  	font-weight: 500;
+  	font-family: Roboto;
+  }
+  .navigation{
+  	margin-top:-10px;
+  }
+  .wander{
+  	float: left;
+  	width: 100px;
+  }
+  .text{
+  	margin-top: 200px;
+  	margin-left: 235px;
+  }
+      .image1{
+  	float: left;
+  	/*width: 29%;*/
+  }
+  .image2{
+  	float: center;
+  	/*width: 29%;*/
+  }
+  .image3{
+  	float: right;
+  	/*width: 29%;*/
+  }
+  .text-block {
+    position: relative;
+    bottom: 400px;
+    left: 20px;
+    background-color: transparent;
+    color: white;
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 15px;
+    /*text-align: center;*/
+}
+table{
+margin-left: auto;
+margin-right: auto;
+border:.5px solid black;
+/*padding: 25px;*/
+border-collapse: collapse;
+width: 60%
+}
+.search{
+	background-color: #4b89dc;
+	color:white;
+	padding-right: 15px;
+	padding-left: 8px;
+	font-size: 12px;
+	border-color: inherit;
+}
+.place{
+	padding-left: 8px;
+	padding-right: 25px;
+	font-size: 12px;
+}
+.pick{
+	padding-left: 8px;
+	padding-right: 15px;
+	font-size: 12px;
+}
+.person{
+	padding-left: 8px;
+	padding-right: 15px;
+	font-size: 12px;
+}
+input{
+	border:none;
+	background-color: none;
+	}
+td{
+	border: 1px solid;
+	padding: 15px;
+	/*margin: 10px;*/
+}
+.images{
+	margin-top: 100px;
+	/*width:90%;*/
+	display: flex;
+	margin-bottom: 0px;
+}
+h6{
+	font-size: 10px;
+}
+h4{
+	font-size: 35px;
+}
+h1{
+	font-family: playfair;
+	font-weight: 350;
+	font-size: 50px;
+	line-height: 52px;
+}
+</style>
+<body>
+<div class="container">
+	<div class="navigation">
+		<nav class="wander"><strong>Wanderlust</strong></nav>
+		<ul class="unl">
+			<li><a href="#">About</a></li>
+			<li><a href="#">Log In</a></li>
+			<li><a href="#">Sign Up</a></li>
+		</ul>
+	</div>
+	<div class="text">
+		<h1>Let us take care of your next adventure.</h1>
+		<h1>You choose where.</h1>
+	</div>
+	
+		<table class="tabili">
+				<tr>
+					<td scope="col" colspan="2" class="place"><input type="text" name="place" placeholder="search for a palce, any palce" /></td>
+					<td scope="col" class="pick"><input type="text" name="date" placeholder="pick a date" /></td>
+					<td scope="col" class="person"><input type="text" name="person" placeholder="1 person" /></td>
+					<td scope="col" class="search"><input type="text" name="person" placeholder="Search" /></td>
+				</tr>
+		</table>
+	
+	<div class="images">
+		<div class="image1">
+			<img src="https://i.imgur.com/ViS8ecJ.png" width="400" height="700">
+			<div class="text-block">
+				<h6 text-align="center">BLOGKIN</h6>
+				<h4>Cave &<br/> Canyon Trial</h4>
+				<p>We will take you to Lagos where you can<br/> spend all your money on transport.</p>
+			</div>
+		</div>
+		<div class="image2">
+			<img src="https://i.imgur.com/w5uzcfU.png" width="400" height="700">
+			<div class="text-block">
+				<h6>BLOGKIN</h6>
+				<h4>Underwater<br/> Exploration</h4>
+				<p>We will take you to Lagos where you can <br/>spend all your money on transport.</p>
+			</div>
+		</div>
+		<div class="image3">
+			<img src="https://i.imgur.com/ViS8ecJ.png" width="400" height="700">
+			<div class="text-block">
+				<h6>BLOGKIN</h6>
+				<h4>Swim with<br/> The Dolphins</h4>
+				<p>We will take you to Lagos where you can <br/>spend all your money on transport.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
