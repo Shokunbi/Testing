@@ -30,10 +30,6 @@ h1{
 .hero{
    margin:10%;
 }
-.gallery-container{
-   height: 500px;
-   background-color: #000;
-}
 .form-input{
    height: 55px;
    padding-left: 3%;
@@ -44,7 +40,7 @@ h1{
    font-weight: 100;
 }
 #form-place{
-   width: 38%;
+   width: 30%;
    border-radius: 4px 0 0 4px;
    margin-right:-6px;
 }
@@ -67,3 +63,31 @@ button{ margin-left: -6px;
    border-radius: 0 4px 4px 0;
    color: #fff;
 }
+/*.gallery-container{
+   height: 500px;
+   background-color: #000;
+}*/
+.images{
+	margin-top: 100px;
+	/*width:90%;*/
+	display: flex;
+	margin-bottom: 0px;
+	height: 500px;
+	/*margin-left: 0px;*/
+}
+h6{
+	font-size: 10px;
+}
+h4{
+	font-size: 35px;
+}
+.text-block {
+    position: relative;
+    bottom: 400px;
+    left: 20px;
+    background-color: transparent;
+    color: white;
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 15px;
+    /*text-align: center;*/
